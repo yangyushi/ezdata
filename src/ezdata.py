@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-
 import sys
-sys.path.append('./ui')
-sys.path.append('./src')
+sys.path.append('src')
+sys.path.append('ui')
 from GUI import main
 from PyQt5 import QtWidgets
 
